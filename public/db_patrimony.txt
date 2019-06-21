@@ -1,0 +1,3 @@
+mesa,100100,Sem bloqueio,20/06/2019 23:29:39
+cadeira,100200,Sem bloqueio,20/06/2019 23:29:56
+note,100300,Sem bloqueio,20/06/2019 23:30:14
