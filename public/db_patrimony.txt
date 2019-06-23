@@ -1,3 +1,3 @@
-mesa,100100,Sem bloqueio,20/06/2019 23:29:39
-cadeira,100200,Sem bloqueio,20/06/2019 23:29:56
-note,100300,Sem bloqueio,20/06/2019 23:30:14
+MESINHA,200,Aguardando commit,23/06/2019 09:02:35
+cadeira,400,Aguardando commit,23/06/2019 09:02:43
+BANCO,980,Aguardando commit,23/06/2019 09:02:51

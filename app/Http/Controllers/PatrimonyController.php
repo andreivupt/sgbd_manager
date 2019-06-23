@@ -8,6 +8,34 @@ use Illuminate\Http\Request;
 
 class PatrimonyController extends Controller
 {
+
+    /**
+     * Pagina inicial do sistema
+     *
+     */
+    public function home()
+    {
+
+        $data = null;
+
+        $db_file = "db_patrimony.txt";
+        $count = substr_count(file_get_contents($db_file), "\n");
+        $open = fopen($db_file, 'r');
+
+        if ($count > 0) {
+            for ($i = 0; $i < $count; $i++) {
+
+                $line = fgets($open, 1024);
+                $list = explode(',', $line);
+
+                $data [] = $list;
+            }
+        }
+
+        return view('index', compact('data'));
+
+    }
+
     /**
      * Display a listing of the resource.
      *
@@ -32,7 +60,7 @@ class PatrimonyController extends Controller
             }
         }
 
-        return view('index', compact('data'));
+        return view('patrimony.index', compact('data'));
     }
 
     /**
@@ -56,7 +84,7 @@ class PatrimonyController extends Controller
 
         $storeOnFile = new StoreDataFile();
 
-        $result = $storeOnFile->getPatrimonyInformations(1, $request);
+        $result = $storeOnFile->getPatrimonyInformations($request);
 
         if ($result)
             return redirect()->route('index')->with('success', 'Cadastrado com sucesso!');
@@ -102,6 +130,33 @@ class PatrimonyController extends Controller
     public function edit($id)
     {
         //
+    }
+
+    /**
+     * Show the form for editing the specified resource.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function show()
+    {
+        $data = null;
+
+        $db_file = "db_patrimony.txt";
+        $count = substr_count(file_get_contents($db_file), "\n");
+        $open = fopen($db_file, 'r');
+
+        if ($count > 0) {
+            for ($i = 0; $i < $count; $i++) {
+
+                $line = fgets($open, 1024);
+                $list = explode(',', $line);
+
+                $data [] = $list;
+            }
+        }
+
+        return view('show', compact('data'));
     }
 
     /**

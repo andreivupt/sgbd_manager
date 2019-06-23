@@ -3,36 +3,58 @@
 
 namespace App\Services;
 
-use App\Helpers;
 use Illuminate\Support\Facades\Storage;
 
 class StoreDataFile
 {
 
-    public function getPatrimonyInformations($session, $request)
+    public function getPatrimonyInformations($request)
     {
 
-        $handle = $this->storeLog($session, $request);
+        $handle = $this->storeLog($request);
 
-        if ($handle && $session == 4){
+        if ($handle) {
 
-            $patrimony = [
-                $request->patrimony_name,
-                $request->patrimony_number,
-                'Sem bloqueio',
-                now()->format('d/m/Y H:i:s').PHP_EOL
-            ];
+            if ($request->transaction_id == 2 ){
 
-            $db_file = "db_patrimony.txt";
+                $db_file = "db_patrimony.txt";
 
-            return $this->storeOnFile($db_file, $patrimony);
+                return $this->editOnFile($db_file, $request);
+            }
+
+            if ($request->transaction_id == 1 || $request->transaction_id == 3) {
+
+                $patrimony = [
+                    $request->patrimony_name,
+                    $request->patrimony_number,
+                    'Aguardando commit',
+                    now()->format('d/m/Y H:i:s') . PHP_EOL
+                ];
+
+                $db_file = "db_patrimony.txt";
+
+                return $this->storeOnFile($db_file, $patrimony);
+            }
+
+            if ($request->transaction_id == 4) {
+                $patrimony = [
+                    $request->patrimony_name,
+                    $request->patrimony_number,
+                    'Sem bloqueio',
+                    now()->format('d/m/Y H:i:s') . PHP_EOL
+                ];
+
+                $db_file = "db_patrimony.txt";
+
+                return $this->storeOnFile($db_file, $patrimony);
+            }
         }
 
         return false;
 
     }
 
-    public function storeLog($session, $request)
+    public function storeLog($request)
     {
 
         $log_file        = "transaction_log.txt";
@@ -47,8 +69,8 @@ class StoreDataFile
 
         $data = [
             $lastTransaction[0],
-            $this->transacao($session),
-            $this->action($session),
+            $this->transacao($request->transaction_id),
+            $this->action($request->transaction_id, $request),
             $request->patrimony_name,
             $request->patrimony_number,
             now()->format('d/m/Y H:i:s').PHP_EOL
@@ -87,6 +109,54 @@ class StoreDataFile
 
     }
 
+    public function editOnFile($dbname, $data)
+    {
+
+        if (is_writable($dbname)){
+
+            $count = substr_count(file_get_contents($dbname), "\n");
+
+            if (! $handle = fopen($dbname, 'r'))
+                return false;
+
+            $macth_id     = $data->n_patrimony_number;
+            $replace_id   = $data->patrimony_number;
+            $macth_name   = $data->n_patrimony_name;
+            $replace_name = $data->patrimony_name;
+            $newContent   = '';
+
+            for ($i = 0 ; $i < $count; $i++){
+
+                $line = fgets($handle, 1024);
+                $list = explode(',', $line);
+
+                foreach ($list as $key => $field){
+
+                    if ($list[$key] === $macth_id)
+                        $list[$key] = $replace_id;
+
+                    if ($list[$key] === $macth_name)
+                        $list[$key] = $replace_name;
+
+                }
+
+                $lines [] = implode(',', $list);
+            }
+
+            foreach ($lines as $row){
+
+                $newContent .= $row;
+            }
+
+            file_put_contents($dbname, $newContent);
+
+        } else
+            return false;
+
+        return true;
+
+    }
+
     public function transacao($id){
 
         $transacao = [
@@ -101,12 +171,13 @@ class StoreDataFile
         return $transacao[$id];
     }
 
-    public function action($id){
+    public function action($id, $request){
 
         $action = [
-            1 => 'insert into db_patrimony(patrimony_name, patrimony_number)',
-            2 => 'editou',
-            3 => 'removeu',
+            1 => 'inseriu ' . $request->patrimony_number . ' - ' . $request->patrimony_name ,
+            2 => 'atualiazou' . $request->patrimony_number . ' - ' . $request->patrimony_name . ' para '
+                              . $request->n_patrimony_number . ' - ' . $request->n_patrimony_name ,
+            3 => 'removeu' . $request->patrimony_number . ' - ' . $request->patrimony_name ,
             4 => 'finalizou transação',
             5 => 'finalizou transação'
         ];

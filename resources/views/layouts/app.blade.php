@@ -64,6 +64,7 @@
 <script src="{{ asset('asset/js/data-table.js') }}"></script>
 <script src="{{ asset('asset/js/jquery.dataTables.js') }}"></script>
 <script src="{{ asset('asset/js/dataTables.bootstrap4.js') }}"></script>
+<script src="{{ asset('js/patrimony.js?=v'.time()) }}"></script>
 <!-- End custom js for this page-->
 </body>
 

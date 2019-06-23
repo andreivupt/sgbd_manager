@@ -1,3 +1,222 @@
 1,inserção,mesa,100100,Sem bloqueio,20/06/2019 23:29:39
 1,inserção,salvou,20/06/2019 23:29:56
 1,inserção,salvou,20/06/2019 23:30:14
+1,inserção,inseriu 100340 - Caneta,Caneta,100340,22/06/2019 10:50:17
+1,inserção,inseriu 200100 - Lápis,Lápis,200100,22/06/2019 11:07:08
+1,inserção,inseriu 200190 - Bloco de notas,Bloco de notas,200190,22/06/2019 11:35:18
+1,edição,atualiazou1005-00 - Note para 100300 - note,Note,1005-00,22/06/2019 20:04:59
+1,edição,atualiazou5100200 - Cadeira para 100200 - cadeira,Cadeira,5100200,22/06/2019 20:20:30
+1,edição,atualiazou5100200 - Cadeira para 100200 - cadeira,Cadeira,5100200,22/06/2019 20:21:40
+1,edição,atualiazou5100200 - Cadeira para 100200 - cadeira,Cadeira,5100200,22/06/2019 20:22:04
+1,edição,atualiazou5100200 - Cadeira para 100200 - cadeira,Cadeira,5100200,22/06/2019 20:22:36
+1,edição,atualiazou5100200 - Cadeira para 100200 - cadeira,Cadeira,5100200,22/06/2019 20:23:16
+1,edição,atualiazou5100200 - Cadeira para 100200 - cadeira,Cadeira,5100200,22/06/2019 20:23:30
+1,edição,atualiazou5100200 - Cadeira para 100200 - cadeira,Cadeira,5100200,22/06/2019 20:26:56
+1,edição,atualiazou5100200 - Cadeira para 100200 - cadeira,Cadeira,5100200,22/06/2019 20:28:00
+1,edição,atualiazou5100200 - Cadeira para 100200 - cadeira,Cadeira,5100200,22/06/2019 20:28:09
+1,edição,atualiazou5100200 - Cadeira para 100200 - cadeira,Cadeira,5100200,22/06/2019 20:28:50
+1,edição,atualiazou5100200 - Cadeira para 100200 - cadeira,Cadeira,5100200,22/06/2019 20:29:13
+1,edição,atualiazou5100200 - Cadeira para 100200 - cadeira,Cadeira,5100200,22/06/2019 20:29:21
+1,edição,atualiazou5100200 - Cadeira para 100200 - cadeira,Cadeira,5100200,22/06/2019 20:31:00
+1,edição,atualiazou5100200 - Cadeira para 100200 - cadeira,Cadeira,5100200,22/06/2019 20:38:15
+1,edição,atualiazou500200 - Cadeira para 100200 - cadeira,Cadeira,500200,22/06/2019 20:39:39
+1,edição,atualiazou800300 - Note para 100300 - note,Note,800300,22/06/2019 20:40:39
+1,edição,atualiazou800300 - Note para 100300 - note,Note,800300,22/06/2019 20:41:02
+1,edição,atualiazou800300 - Note para 100300 - note,Note,800300,22/06/2019 20:41:32
+1,edição,atualiazou100200 - cadeira para 100200 - cadeira,cadeira,100200,22/06/2019 21:36:32
+1,edição,atualiazou700300 - Note para 100300 - note,Note,700300,22/06/2019 21:36:46
+1,edição,atualiazou700300 - Note para 100300 - note,Note,700300,22/06/2019 21:38:09
+1,edição,atualiazou700300 - Note para 100300 - note,Note,700300,22/06/2019 21:38:47
+1,edição,atualiazou700300 - Note para 100300 - note,Note,700300,22/06/2019 21:39:09
+1,edição,atualiazou100100 - esa para 100100 - mesa,esa,100100,22/06/2019 21:39:56
+1,edição,atualiazou100100 - esa para 100100 - mesa,esa,100100,22/06/2019 21:40:19
+1,edição,atualiazou100100 - esa para 100100 - mesa,esa,100100,22/06/2019 21:40:37
+1,edição,atualiazou100100 - esa para 100100 - mesa,esa,100100,22/06/2019 21:40:49
+1,edição,atualiazou100100 - esa para 100100 - mesa,esa,100100,22/06/2019 21:41:01
+1,edição,atualiazou100100 - mesa para 100100 - mesa,mesa,100100,22/06/2019 21:42:22
+1,edição,atualiazou700300 - Note para 100300 - note,Note,700300,22/06/2019 22:14:48
+1,edição,atualiazou800100 - Mesa para 100100 - mesa,Mesa,800100,22/06/2019 22:15:10
+1,edição,atualiazou800100 - Mesa para 100100 - mesa,Mesa,800100,22/06/2019 22:16:20
+1,edição,atualiazou800100 - Mesa para 100100 - mesa,Mesa,800100,22/06/2019 22:19:14
+1,edição,atualiazou800 - MESA para 100100 - mesa,MESA,800,22/06/2019 22:34:40
+1,edição,atualiazou800 - MESA para 100100 - mesa,MESA,800,22/06/2019 22:34:59
+1,edição,atualiazou800 - MESA para 100100 - mesa,MESA,800,22/06/2019 22:35:52
+1,edição,atualiazou800 - MESA para 100100 - mesa,MESA,800,22/06/2019 22:49:56
+1,edição,atualiazou800 - MESA para 400 - mesa,MESA,800,22/06/2019 22:52:50
+1,edição,atualiazou550 - MESA DE CANTO para 400 - MESA,MESA DE CANTO,550,22/06/2019 22:53:27
+1,edição,atualiazou200100 - MESA DE CANTO para 400 - MESA DE CANTO,MESA DE CANTO,200100,22/06/2019 22:54:12
+1,edição,atualiazou45 - MESA DE CANTO para 400 - MESA DE CANTO,MESA DE CANTO,45,22/06/2019 22:55:05
+1,edição,atualiazou45 - MESA DE CANTO para 400 - MESA DE CANTO,MESA DE CANTO,45,22/06/2019 22:55:25
+1,edição,atualiazou45 - MESA DE CANTO para 400 - MESA DE CANTO,MESA DE CANTO,45,22/06/2019 22:56:19
+1,edição,atualiazou600 - MESA DE CANTO para 400 - MESA DE CANTO,MESA DE CANTO,600,22/06/2019 22:56:51
+1,edição,atualiazou600 - MESA DE CANTO para 400 - MESA DE CANTO,MESA DE CANTO,600,22/06/2019 22:57:45
+1,edição,atualiazou1000500 - MESA DE CANTO para 400 - MESA DE CANTO,MESA DE CANTO,1000500,22/06/2019 22:58:32
+1,edição,atualiazou5 - MESA DE CANTO para 400 - MESA DE CANTO,MESA DE CANTO,5,22/06/2019 22:59:38
+1,edição,atualiazou650 - MESA DE para 400 - MESA DE CANTO,MESA DE,650,22/06/2019 23:04:58
+1,edição,atualiazou650 - MESA DE para 400 - MESA DE CANTO,MESA DE,650,22/06/2019 23:05:52
+1,edição,atualiazou650 - MESA DE para 400 - MESA DE CANTO,MESA DE,650,22/06/2019 23:06:31
+1,edição,atualiazou100 - MESA para 400 - MESA DE CANTO,MESA,100,22/06/2019 23:07:28
+1,edição,atualiazou100 - MESA para 400 - MESA DE CANTO,MESA,100,22/06/2019 23:09:06
+1,edição,atualiazou100 - MESA para 400 - MESA DE CANTO,MESA,100,22/06/2019 23:10:06
+1,edição,atualiazou100 - MESA para 400 - MESA DE CANTO,MESA,100,22/06/2019 23:10:48
+1,edição,atualiazou400 - MESA DE para 400 - MESA DE CANTO,MESA DE,400,22/06/2019 23:11:12
+1,edição,atualiazou300 - MESA para 400 - MESA DE CANTO,MESA,300,22/06/2019 23:12:09
+1,edição,atualiazou300 - MESA para 400 - MESA DE CANTO,MESA,300,22/06/2019 23:13:10
+1,edição,atualiazou960 - MESA para 400 - MESA DE CANTO,MESA,960,22/06/2019 23:15:39
+1,edição,atualiazou960 - MESA para 400 - MESA DE CANTO,MESA,960,22/06/2019 23:28:55
+1,edição,atualiazou400 - ABAJUR para 400 - MESA DE CANTO,ABAJUR,400,22/06/2019 23:30:44
+1,edição,atualiazou400 - ABAJUR para 400 - MESA DE CANTO,ABAJUR,400,22/06/2019 23:31:45
+1,edição,atualiazou400 - ABAJUR para 400 - MESA DE CANTO,ABAJUR,400,22/06/2019 23:32:52
+1,edição,atualiazou400 - ABAJUR para 400 - MESA DE CANTO,ABAJUR,400,22/06/2019 23:36:13
+1,edição,atualiazou400 - MESA para 400 - MESA DE CANTO,MESA,400,22/06/2019 23:39:11
+1,edição,atualiazou400 - MESA para 400 - MESA DE CANTO,MESA,400,22/06/2019 23:41:03
+1,edição,atualiazou400 - MESA para 400 - MESA DE CANTO,MESA,400,22/06/2019 23:41:40
+1,edição,atualiazou5 - MESA para 400 - MESA DE CANTO,MESA,5,22/06/2019 23:42:11
+1,edição,atualiazou5 - MESA para 400 - MESA DE CANTO,MESA,5,22/06/2019 23:42:47
+1,edição,atualiazou5 - MESA para 400 - MESA DE CANTO,MESA,5,22/06/2019 23:44:02
+1,edição,atualiazou850 - CADEIRA para 400 - MESA DE CANTO,CADEIRA,850,22/06/2019 23:45:25
+1,edição,atualiazou960 - MESA para 400 - MESA DE CANTO,MESA,960,22/06/2019 23:46:00
+1,edição,atualiazou1000 - MESA DE BAR para 960 - MESA,MESA DE BAR,1000,22/06/2019 23:50:13
+1,edição,atualiazou960 - MESA DE BICO para 960 - MESA,MESA DE BICO,960,23/06/2019 00:00:14
+1,edição,atualiazou960 - MESA DE BICO para 960 - MESA,MESA DE BICO,960,23/06/2019 00:00:37
+1,edição,atualiazou100100 - mesa para 100100 - mesa,mesa,100100,23/06/2019 00:02:00
+1,edição,atualiazou985 - MESA grande para 960 - MESA,MESA grande,985,23/06/2019 00:02:13
+1,edição,atualiazou985 - MESA grande para 960 - MESA,MESA grande,985,23/06/2019 00:02:49
+1,inserção,inseriu 850200 - Cadeirinha,Cadeirinha,850200,23/06/2019 00:04:57
+1,inserção,inseriu 950052 - TECLADO,TECLADO,950052,23/06/2019 00:05:11
+1,edição,atualiazou50000 - MESA D E BOTAO para 960 - MESA,MESA D E BOTAO,50000,23/06/2019 00:05:30
+1,edição,atualiazou960 - MESA de bico para 960 - MESA,MESA de bico,960,23/06/2019 00:07:08
+1,edição,atualiazou520 - MESINHA para 960 - MESA de bico,MESINHA,520,23/06/2019 00:07:28
+1,edição,atualiazou960 - MESA de para 960 - MESA,MESA de,960,23/06/2019 00:17:45
+1,edição,atualiazou960 - MESA de para 960 - MESA,MESA de,960,23/06/2019 00:18:36
+1,edição,atualiazou960 - MESA de para 960 - MESA,MESA de,960,23/06/2019 00:30:59
+1,edição,atualiazou960 - MESA para 960 - MESA,MESA,960,23/06/2019 00:31:08
+1,inserção,inseriu 10220 - mesa,mesa,10220,23/06/2019 00:40:39
+1,inserção,inseriu 300100 - cadeira,cadeira,300100,23/06/2019 00:40:51
+1,edição,atualiazou500 - MESA para 10220 - mesa,MESA,500,23/06/2019 00:41:02
+1,edição,atualiazou500 - MESA para 10220 - mesa,MESA,500,23/06/2019 00:42:50
+1,edição,atualiazou500 - MESA para 10220 - mesa,MESA,500,23/06/2019 00:43:08
+1,edição,atualiazou500 - MESA para 10220 - mesa,MESA,500,23/06/2019 00:44:36
+1,edição,atualiazou500 - MONITOR para 300100 - cadeira,MONITOR,500,23/06/2019 00:44:57
+1,edição,atualiazou43 - veeve para 300100 - cadeira,veeve,43,23/06/2019 00:46:25
+1,edição,atualiazou500 - cadeira para 300100 - cadeira,cadeira,500,23/06/2019 00:47:38
+1,edição,atualiazou500 - cadeira para 300100 - cadeira,cadeira,500,23/06/2019 00:49:20
+1,edição,atualiazou300100 - gsdgdsg para 300100 - cadeira,gsdgdsg,300100,23/06/2019 00:49:47
+1,edição,atualiazou300100 - gsdgdsg para 300100 - cadeira,gsdgdsg,300100,23/06/2019 00:50:07
+1,edição,atualiazou300100 - gsdgdsg para 300100 - cadeira,gsdgdsg,300100,23/06/2019 00:52:13
+1,edição,atualiazou300100 - gsdgdsg para 300100 - cadeira,gsdgdsg,300100,23/06/2019 00:53:19
+1,edição,atualiazou300100 - gsdgdsg para 300100 - cadeira,gsdgdsg,300100,23/06/2019 00:53:35
+1,edição,atualiazou300100 - gsdgdsg para 300100 - cadeira,gsdgdsg,300100,23/06/2019 00:54:00
+1,edição,atualiazou300100 - gsdgdsg para 300100 - cadeira,gsdgdsg,300100,23/06/2019 00:54:22
+1,edição,atualiazou300100 - gsdgdsg para 300100 - cadeira,gsdgdsg,300100,23/06/2019 00:54:30
+1,edição,atualiazou300100 - gsdgdsg para 300100 - cadeira,gsdgdsg,300100,23/06/2019 00:54:38
+1,edição,atualiazou500 - GARRAFA para 300100 - gsdgdsg,GARRAFA,500,23/06/2019 00:54:51
+1,edição,atualiazou300100 - GARRAFA para 300100 - gsdgdsg,GARRAFA,300100,23/06/2019 00:55:00
+1,edição,atualiazou500 - GARRAFA para 300100 - GARRAFA,GARRAFA,500,23/06/2019 00:55:07
+1,edição,atualiazou300100 - BANCO para 300100 - GARRAFA,BANCO,300100,23/06/2019 00:55:14
+1,edição,atualiazou620 - MAO para 300100 - BANCO,MAO,620,23/06/2019 00:55:26
+1,edição,atualiazou300100 - TE< para 300100 - BANCO,TE<,300100,23/06/2019 00:58:15
+1,edição,atualiazou300100 - tem para 300100 - BANCO,tem,300100,23/06/2019 00:58:26
+1,edição,atualiazou300100 - banco de taco para 300100 - BANCO,banco de taco,300100,23/06/2019 00:59:47
+1,edição,atualiazou300100 - banco de taco para 300100 - BANCO,banco de taco,300100,23/06/2019 01:00:28
+1,inserção,inseriu 23232 - CADA,CADA,23232,23/06/2019 01:00:55
+1,inserção,inseriu 78965 - CHINELO,CHINELO,78965,23/06/2019 01:01:12
+1,edição,atualiazou23232 - CAsA para 23232 - CADA,CAsA,23232,23/06/2019 01:01:23
+1,edição,atualiazou78965 - CHIN para 78965 - CHINELO,CHIN,78965,23/06/2019 01:03:51
+1,edição,atualiazou78965 - CHIN para 78965 - CHINELO,CHIN,78965,23/06/2019 01:05:45
+1,edição,atualiazou78965 - CHIN para 78965 - CHINELO,CHIN,78965,23/06/2019 01:06:38
+1,edição,atualiazou500 - MEIA para 78965 - CHINELO,MEIA,500,23/06/2019 01:07:41
+1,edição,atualiazou500 - MEIA para 78965 - CHINELO,MEIA,500,23/06/2019 01:09:16
+1,edição,atualiazou500 - MEIA para 78965 - CHINELO,MEIA,500,23/06/2019 01:09:40
+1,edição,atualiazou500 - MEIA para 78965 - CHINELO,MEIA,500,23/06/2019 01:09:54
+1,edição,atualiazou78965 - CHINE para 78965 - CHINELO,CHINE,78965,23/06/2019 01:10:13
+1,edição,atualiazou78965 - CHINE para 78965 - CHINELO,CHINE,78965,23/06/2019 01:10:28
+1,edição,atualiazou78965 - CHINE para 78965 - CHINELO,CHINE,78965,23/06/2019 01:13:47
+1,edição,atualiazou78965 - CHINE para 78965 - CHINELO,CHINE,78965,23/06/2019 01:15:46
+1,edição,atualiazou78965 - CHINE para 78965 - CHINELO,CHINE,78965,23/06/2019 01:16:55
+1,edição,atualiazou78965 - CHINE para 78965 - CHINELO,CHINE,78965,23/06/2019 01:17:41
+1,edição,atualiazou78965 - CHINE para 78965 - CHINELO,CHINE,78965,23/06/2019 01:18:05
+1,edição,atualiazou78965 - CHINE para 78965 - CHINELO,CHINE,78965,23/06/2019 01:18:23
+1,edição,atualiazou78965 - CHINE para 78965 - CHINELO,CHINE,78965,23/06/2019 01:19:22
+1,edição,atualiazou78965 - CHINE para 78965 - CHINELO,CHINE,78965,23/06/2019 01:20:47
+1,edição,atualiazou78965 - CHINE para 78965 - CHINELO,CHINE,78965,23/06/2019 01:21:09
+1,edição,atualiazou78965 - CHINE para 78965 - CHINELO,CHINE,78965,23/06/2019 01:21:33
+1,edição,atualiazou78965 - CHINE para 78965 - CHINELO,CHINE,78965,23/06/2019 01:21:51
+1,edição,atualiazou78965 - CHINE para 78965 - CHINELO,CHINE,78965,23/06/2019 01:22:22
+1,edição,atualiazou78965 - CHINE para 78965 - CHINELO,CHINE,78965,23/06/2019 01:22:45
+1,edição,atualiazou78965 - CHINE para 78965 - CHINELO,CHINE,78965,23/06/2019 01:23:01
+1,edição,atualiazou7894654321 - cnielao para 78965 - CHINELO,cnielao,7894654321,23/06/2019 01:24:03
+1,edição,atualiazou7894654321 - cnielao para 78965 - CHINELO,cnielao,7894654321,23/06/2019 01:24:31
+1,inserção,inseriu 100200 - CADEIRAO,CADEIRAO,100200,23/06/2019 08:01:15
+1,inserção,inseriu 200140 - CHINELAO,CHINELAO,200140,23/06/2019 08:01:26
+1,edição,atualiazou300 - MESA para 78965 - CHINELO,MESA,300,23/06/2019 08:01:44
+1,edição,atualiazou300 - MESA para 78965 - CHINELO,MESA,300,23/06/2019 08:02:24
+1,edição,atualiazou300 - MESA para 78965 - CHINELO,MESA,300,23/06/2019 08:02:35
+1,edição,atualiazou300 - MESA para 78965 - CHINELO,MESA,300,23/06/2019 08:03:48
+1,edição,atualiazou300 - MESA para 78965 - CHINELO,MESA,300,23/06/2019 08:04:25
+1,edição,atualiazou300 - MESA para 78965 - CHINELO,MESA,300,23/06/2019 08:07:41
+1,edição,atualiazou300 - MESA para 78965 - CHINELO,MESA,300,23/06/2019 08:09:41
+1,edição,atualiazou300 - MESA para 78965 - CHINELO,MESA,300,23/06/2019 08:10:13
+1,edição,atualiazou300 - MESA para 78965 - CHINELO,MESA,300,23/06/2019 08:10:41
+1,edição,atualiazou300 - MESA para 78965 - CHINELO,MESA,300,23/06/2019 08:14:49
+1,edição,atualiazou500 - bacia para 100200 - CADEIRAO,bacia,500,23/06/2019 08:15:26
+1,edição,atualiazou500 - bacia para 100200 - CADEIRAO,bacia,500,23/06/2019 08:17:04
+1,edição,atualiazou500 - bacia para 100200 - CADEIRAO,bacia,500,23/06/2019 08:17:29
+1,edição,atualiazou500 - bacia para 100200 - CADEIRAO,bacia,500,23/06/2019 08:18:11
+1,edição,atualiazou500 - bacia para 100200 - CADEIRAO,bacia,500,23/06/2019 08:18:50
+1,edição,atualiazou500 - bacia para 100200 - CADEIRAO,bacia,500,23/06/2019 08:20:21
+1,edição,atualiazou500 - bacia para 100200 - CADEIRAO,bacia,500,23/06/2019 08:20:34
+1,edição,atualiazou600 - CHINELO para 500 - CHINELO,CHINELO,600,23/06/2019 08:22:18
+1,inserção,inseriu 4079 - CADEIRA,CADEIRA,4079,23/06/2019 08:23:31
+1,edição,atualiazou100 - CADEIRA para 4079 - CADEIRA,CADEIRA,100,23/06/2019 08:23:42
+1,edição,atualiazou100 - CADEIRA para 4079 - CADEIRA,CADEIRA,100,23/06/2019 08:24:18
+1,edição,atualiazou100 - CADEIRA para 4079 - CADEIRA,CADEIRA,100,23/06/2019 08:24:48
+1,edição,atualiazou100 - CADEIRA para 4079 - CADEIRA,CADEIRA,100,23/06/2019 08:26:26
+1,edição,atualiazou100 - CADEIRA para 4079 - CADEIRA,CADEIRA,100,23/06/2019 08:26:46
+1,edição,atualiazou100 - CADEIRA para 4079 - CADEIRA,CADEIRA,100,23/06/2019 08:30:47
+1,edição,atualiazou100 - prego para 4079 - CADEIRA,prego,100,23/06/2019 08:35:22
+1,edição,atualiazou555 - CADEIRA para 4079 - CADEIRA,CADEIRA,555,23/06/2019 08:35:47
+1,edição,atualiazou555 - CADEIRA para 4079 - CADEIRA,CADEIRA,555,23/06/2019 08:36:13
+1,edição,atualiazou555 - CADEIRA para 4079 - CADEIRA,CADEIRA,555,23/06/2019 08:37:13
+1,edição,atualiazou555 - CADEIRA para 4079 - CADEIRA,CADEIRA,555,23/06/2019 08:38:02
+1,edição,atualiazou555 - CADEIRA para 4079 - CADEIRA,CADEIRA,555,23/06/2019 08:41:24
+1,edição,atualiazou555 - CADEIRA para 4079 - CADEIRA,CADEIRA,555,23/06/2019 08:42:08
+1,edição,atualiazou555 - CADEIRA para 4079 - CADEIRA,CADEIRA,555,23/06/2019 08:43:07
+1,edição,atualiazou555 - CADEIRA para 4079 - CADEIRA,CADEIRA,555,23/06/2019 08:43:15
+1,edição,atualiazou555 - CADEIRA para 4079 - CADEIRA,CADEIRA,555,23/06/2019 08:43:36
+1,edição,atualiazou555 - CADEIRA para 4079 - CADEIRA,CADEIRA,555,23/06/2019 08:43:57
+1,edição,atualiazou555 - CADEIRA para 4079 - CADEIRA,CADEIRA,555,23/06/2019 08:44:42
+1,edição,atualiazou555 - CADEIRA para 4079 - CADEIRA,CADEIRA,555,23/06/2019 08:45:19
+1,edição,atualiazou555 - CADEIRA para 4079 - CADEIRA,CADEIRA,555,23/06/2019 08:45:57
+1,edição,atualiazou555 - CADEIRA para 4079 - CADEIRA,CADEIRA,555,23/06/2019 08:46:30
+1,edição,atualiazou555 - CADEIRA para 4079 - CADEIRA,CADEIRA,555,23/06/2019 08:46:39
+1,edição,atualiazou555 - CADEIRA para 4079 - CADEIRA,CADEIRA,555,23/06/2019 08:47:03
+1,edição,atualiazou555 - CADEIRA para 4079 - CADEIRA,CADEIRA,555,23/06/2019 08:48:15
+1,edição,atualiazou555 - CADEIRA para 4079 - CADEIRA,CADEIRA,555,23/06/2019 08:48:36
+1,edição,atualiazou555 - CADEIRA para 4079 - CADEIRA,CADEIRA,555,23/06/2019 08:48:45
+1,edição,atualiazou555 - CADEIRA para 4079 - CADEIRA,CADEIRA,555,23/06/2019 08:49:25
+1,edição,atualiazou555 - CADEIRA para 4079 - CADEIRA,CADEIRA,555,23/06/2019 08:49:47
+1,edição,atualiazou555 - CADEIRA para 4079 - CADEIRA,CADEIRA,555,23/06/2019 08:50:35
+1,edição,atualiazou555 - CADEIRA para 4079 - CADEIRA,CADEIRA,555,23/06/2019 08:51:54
+1,edição,atualiazou555 - CADEIRA para 4079 - CADEIRA,CADEIRA,555,23/06/2019 08:52:02
+1,edição,atualiazou555 - CADEIRA para 4079 - CADEIRA,CADEIRA,555,23/06/2019 09:00:06
+1,inserção,inseriu 100 - MEsa,MEsa,100,23/06/2019 09:02:35
+1,inserção,inseriu 200 - CADEIRA,CADEIRA,200,23/06/2019 09:02:43
+1,inserção,inseriu 400 - BANCO,BANCO,400,23/06/2019 09:02:51
+1,edição,atualiazou600 - CADEIRA para 200 - CADEIRA,CADEIRA,600,23/06/2019 09:03:23
+1,edição,atualiazou600 - CADEIRA para 200 - CADEIRA,CADEIRA,600,23/06/2019 09:03:39
+1,edição,atualiazou600 - CADEIRA para 200 - CADEIRA,CADEIRA,600,23/06/2019 09:03:55
+1,edição,atualiazou600 - CADEIRA para 200 - CADEIRA,CADEIRA,600,23/06/2019 09:05:14
+1,edição,atualiazou600 - CADEIRA para 200 - CADEIRA,CADEIRA,600,23/06/2019 09:06:07
+1,edição,atualiazou600 - CADEIRA para 200 - CADEIRA,CADEIRA,600,23/06/2019 09:07:19
+1,edição,atualiazou600 - CADEIRA para 200 - CADEIRA,CADEIRA,600,23/06/2019 09:07:41
+1,edição,atualiazou600 - CADEIRA para 200 - CADEIRA,CADEIRA,600,23/06/2019 09:08:28
+1,edição,atualiazou600 - CADEIRA para 200 - CADEIRA,CADEIRA,600,23/06/2019 09:09:36
+1,edição,atualiazou600 - CADEIRA para 200 - CADEIRA,CADEIRA,600,23/06/2019 09:09:43
+1,edição,atualiazou600 - CADEIRA para 200 - CADEIRA,CADEIRA,600,23/06/2019 09:11:24
+1,edição,atualiazou600 - CADEIRA para 200 - CADEIRA,CADEIRA,600,23/06/2019 09:11:46
+1,edição,atualiazou980 - BANCO para 400 - BANCO,BANCO,980,23/06/2019 09:12:01
+1,edição,atualiazou630 - MESA para 100 - MEsa,MESA,630,23/06/2019 09:12:14
+1,edição,atualiazou200 - MEsa para 630 - MEsa,MEsa,200,23/06/2019 09:17:12
+1,edição,atualiazou200 - MESINHA para 200 - MEsa,MESINHA,200,23/06/2019 09:17:20
+1,edição,atualiazou400 - cadeira para 600 - CADEIRA,cadeira,400,23/06/2019 09:17:30

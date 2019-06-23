@@ -45,6 +45,7 @@
                         <input type="text" class="form-control form-control-sm" name="patrimony_number" aria-label="patrimony_number">
                     </div>
 
+                    <input type="hidden" name="transaction_id" value="1">
                     <button type="submit" class="btn btn-primary mr-2">Salvar</button>
 
                 </form>

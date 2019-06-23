@@ -1,9 +1,7 @@
 <?php
 
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'PatrimonyController@home')->name('home');
 
 Route::resource('patrimony', 'PatrimonyController');
 
