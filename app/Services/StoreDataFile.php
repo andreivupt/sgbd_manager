@@ -19,7 +19,12 @@ class StoreDataFile
 
                 $db_file = "db_patrimony.txt";
 
-                return $this->editOnFile($db_file, $request);
+                $result = $this->editOnFile($db_file, $request);
+
+                $this->storeLog($request);
+
+                return $result;
+
             }
 
             if ($request->transaction_id == 1 || $request->transaction_id == 3) {
@@ -67,6 +72,10 @@ class StoreDataFile
                 $lastTransaction[0]++;
         }
 
+        if ($request === 4)
+           return $this->commitLog($lastTransaction);
+
+
         $data = [
             $lastTransaction[0],
             $this->transacao($request->transaction_id),
@@ -87,6 +96,33 @@ class StoreDataFile
             return false;
 
         return true;
+    }
+
+    public function commitLog($lastTransaction)
+    {
+
+        $data = [
+            $lastTransaction[0],
+            'commit',
+            '-',
+            '-',
+            now()->format('d/m/Y H:i:s').PHP_EOL
+        ];
+
+        $log_file = "transaction_log.txt";
+
+        if (is_writable($log_file)){
+
+            if (! $handle = fopen($log_file, 'a'))
+                return false;
+
+            fwrite($handle , implode(',', $data));
+
+        } else
+            return false;
+
+        return true;
+
     }
 
     public function storeOnFile($dbname, $data)
@@ -175,9 +211,9 @@ class StoreDataFile
 
         $action = [
             1 => 'inseriu ' . $request->patrimony_number . ' - ' . $request->patrimony_name ,
-            2 => 'atualiazou' . $request->patrimony_number . ' - ' . $request->patrimony_name . ' para '
-                              . $request->n_patrimony_number . ' - ' . $request->n_patrimony_name ,
-            3 => 'removeu' . $request->patrimony_number . ' - ' . $request->patrimony_name ,
+            2 => 'atualiazou ' . $request->n_patrimony_number . ' - ' . $request->n_patrimony_name . ' para '
+                              . $request->patrimony_number . ' - ' . $request->patrimony_name ,
+            3 => 'removeu ' . $request->patrimony_number . ' - ' . $request->patrimony_name ,
             4 => 'finalizou transação',
             5 => 'finalizou transação'
         ];
